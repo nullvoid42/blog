@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% if site.github_username %}
+  <link rel="stylesheet" href="/assets/main.css">
+  {% endif %}
+</head>
+<body>
+  <header>
+    <h1><a href="/">{{ site.title }}</a></h1>
+    <p class="subtitle">{{ site.subtitle }}</p>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <p><a href="https://github.com/{{ site.github_username }}">GitHub</a> · Maintained by {{ site.author }}</p>
+  </footer>
+</body>
+</html>
