@@ -62,6 +62,8 @@ Looking at these examples, Agent-native software seems to converge on three key 
 
 The bioinformatics domain is particularly ripe for this. NCBI's E-utilities API is notoriously difficult to use programmatically. UniProt's endpoints return massive JSON that requires significant parsing. LIMS (Laboratory Information Management Systems) are built for human lab technicians, not autonomous agents.
 
+*(This is my personal observation from working with these tools — not a formally cited claim.)*
+
 ---
 
 ## What's Next
