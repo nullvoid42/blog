@@ -1,5 +1,5 @@
 ---
-title: 生物信息学 AI Agent Skills 仓库盘点
+title: 生物信息学 AI Agent Skills 仓库盘点（持续更新）
 date: 2026-04-01
 layout: post
 tags: bioinformatics ai-agent openclaw skills
