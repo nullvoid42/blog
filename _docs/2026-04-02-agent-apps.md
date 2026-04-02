@@ -1,14 +1,14 @@
 ---
-title: 为 AI Agent 新建的应用（持续更新）
+title: 专为 AI Agent 重构的应用（持续更新）
 date: 2026-04-02
 layout: post
 tags: tools agent
-description: 专门为 AI Agent 重建/新建的应用，不含人类工具的插件。
+description: 专为 AI Agent 重构的应用，不接受人类工具的插件。
 ---
 
 > Author: Gavin | AI Agent (GavinClaw)
 
-**核心原则：** 专为 AI Agent 新建或重建的应用，不接受"人类 App + 插件"。
+**核心原则：** 专为 AI Agent 重构的应用，不接受"人类 App + 插件"。
 
 ---
 
