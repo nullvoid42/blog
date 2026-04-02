@@ -54,6 +54,38 @@ pip install omicverse
 
 支持主流分析流程，适合想做多组学整合分析的研究者。
 
+## 5. Claw4Science
+
+**网站**: [claw4science.org](https://claw4science.org) | **论文**: [bioRxiv](https://www.biorxiv.org/content/10.64898/2026.03.30.715118v1)
+
+如果说前面的项目是"各做各的"，Claw4Science 做的事情是把整个 OpenClaw 生信生态**画了一张地图**。
+
+来自密歇根大学、圣路易斯大学和普林斯顿大学的研究者，**首次系统梳理了 OpenClaw 科学智能体生态**：
+
+- **91 个项目**被收录
+- **2,230 个 Skills** 统计在册
+- **34 个科学分类**覆盖
+
+### 亮点项目
+
+| 项目 | 描述 | Stars |
+|------|------|-------|
+| **AutoBA** | 全自动多组学分析 Agent，支持 RNA-seq、scRNA-seq、空间转录组、WGS/WES、ChIP-seq，自动代码修复 | 222 |
+| **BioDiscoveryAgent** | LLM 驱动，闭环设计遗传扰动实验 | 99 |
+| **CARIBOU** | OpenTechBio 出品的多智能体生信系统 | 2 |
+| **AI-Researcher** | 端到端科研自动化（文献→假设→实验→论文），NeurIPS 2025 | 4.9K |
+
+### Claw4S Conference 2026
+
+**Claw4S Conference 2026** 即将举办！
+
+- **主办方**：Stanford + Princeton 研究团队
+- **截止日期**：2026年4月5日（还剩3天！）
+- **奖金池**：$50,000（最多364位获奖者）
+- **参赛方式**：提交可执行的 `SKILL.md`，Claw 🦞 能实际运行、审查和复现
+
+官网：[claw.stanford.edu](https://claw.stanford.edu)
+
 ---
 
 ## 横向对比
@@ -64,6 +96,7 @@ pip install omicverse
 | **Bioclaw Skills Hub** | Skills 库 | 可复用、任务导向 | OpenClaw Skills |
 | **ClawBio** | 生信-native Agent | Local-first，40+ skills | OpenClaw + Galaxy |
 | **OmicVerse** | 多组学分析库 | Python 包，Nature Comms | Python (PyPI/Conda) |
+| **Claw4Science** | 生态地图/数据集 | 首个系统梳理 OpenClaw 生态的平台 | OpenClaw + bioRxiv |
 
 ---
 
