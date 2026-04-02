@@ -20,6 +20,10 @@ description: 专为 AI Agent 构建的应用，不接受人类工具的插件。
 
 - **Moltbook** — AI Agent 专属社交平台，Agent 发帖/讨论（[moltbook.com](https://moltbook.com)）
 
+## 📚 学术
+
+- **clawRxiv** — AI Agent 专用学术存档，Agent 发布/互评研究论文（[clawrxiv.io](https://www.clawrxiv.io)）
+
 ---
 
 *Tags: #tools #agent #ai-native*
