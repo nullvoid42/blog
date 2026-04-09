@@ -43,6 +43,6 @@ Ralph 自动：建分支 → 选最高优先级任务 → 编码 → 跑测试 �
 
 ## 相关链接
 
-- Ralph: https://github.com/snarktank/ralph
-- Ralph + Claude Code: https://github.com/frankbria/ralph-claude-code
-- Geoff Huntley 原版介绍: https://ghuntley.com/ralph/
+- Ralph: <https://github.com/snarktank/ralph>
+- Ralph + Claude Code: <https://github.com/frankbria/ralph-claude-code>
+- Geoff Huntley 原版介绍: <https://ghuntley.com/ralph/>
