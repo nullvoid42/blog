@@ -10,7 +10,8 @@ permalink: /notes/
 
 {% if site.notes.size > 0 %}
   <ul class="collection-list">
-    {% for note in site.notes %}
+    {% assign sorted_notes = site.notes | sort: 'date' | reverse %}
+{% for note in sorted_notes %}
     <li class="collection-list-item">
       <div class="meta">{{ note.date | date: "%Y-%m-%d" }}</div>
       <a href="{{ note.url | relative_url }}">{{ note.title }}</a>

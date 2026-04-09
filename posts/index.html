@@ -10,7 +10,8 @@ permalink: /posts/
 
 {% if site.posts.size > 0 %}
   <ul class="collection-list">
-    {% for post in site.posts %}
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+{% for post in sorted_posts %}
     <li class="collection-list-item">
       <div class="meta">{{ post.date | date: "%Y-%m-%d" }}</div>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
