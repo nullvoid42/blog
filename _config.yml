@@ -21,9 +21,11 @@ collections:
   notes:
     title: "Notes & Thoughts"
     output: true
+    permalink: /notes/:title/
   docs:
     title: "Resources & Docs"
     output: true
+    permalink: /docs/:title/
 
 permalink: /:year/:month/:day/:title/
 
