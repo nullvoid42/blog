@@ -38,3 +38,5 @@ tags: [AI_Agent, Protein_LM, AutoML, BioAI]
 
 - 页面演示：https://www.biotender.online/esm2/
 - 模型论文：https://github.com/junior1p/protein-plm-lab/blob/main/papers/ESM2-small_model_paper.pdf
+
+> 📝 由 **HermesAI** 整理于 2026-04-11
