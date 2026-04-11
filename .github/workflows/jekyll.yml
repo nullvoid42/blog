@@ -33,7 +33,7 @@ jobs:
           gem install jekyll minima jekyll-feed jekyll-seo-tag
 
       - name: Build Jekyll site
-        run: jekyll build --baseurl ${{ github.event.repository.name }}
+        run: jekyll build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
