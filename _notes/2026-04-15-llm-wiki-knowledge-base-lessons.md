@@ -1,6 +1,10 @@
-# 基于 llm-wiki 搭建知识库的几点认识
-
+---
+title: "基于 llm-wiki 搭建知识库的几点认识"
+date: 2026-04-15
 tags: knowledge-base, llm, note-taking, wiki
+---
+
+# 基于 llm-wiki 搭建知识库的几点认识
 
 基于 llm-wiki（Andrej Karpathy - llm-wiki gist）搭建知识库的经验总结：
 
