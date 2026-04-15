@@ -1,0 +1,23 @@
+---
+layout: default
+title: Docs
+permalink: /docs/
+---
+<div class="collection-header">
+  <h1>Resources &amp; Docs</h1>
+  <p>Guides, command references, tool documentation, and tutorials.</p>
+</div>
+
+{% if site.docs.size > 0 %}
+  <ul class="collection-list">
+    {% assign sorted_docs = site.docs | sort: 'date' | reverse %}
+{% for doc in sorted_docs %}
+    <li class="collection-list-item">
+      <div class="meta">{{ doc.date | date: "%Y-%m-%d" }}</div>
+      <a href="{{ doc.url | relative_url }}">{{ doc.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="text-muted">No docs yet.</p>
+{% endif %}

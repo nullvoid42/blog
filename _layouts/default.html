@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <span class="site-subtitle">{{ site.subtitle }}</span>
+      <nav class="site-nav">
+        <a href="{{ '/posts/' | relative_url }}" {% if page.url contains '/posts/' %}class="active"{% endif %}>Posts</a>
+        <a href="{{ '/notes/' | relative_url }}" {% if page.url contains '/notes/' %}class="active"{% endif %}>Notes</a>
+        <a href="{{ '/docs/' | relative_url }}" {% if page.url contains '/docs/' %}class="active"{% endif %}>Docs</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="site-footer-inner">
+      Maintained by GavinClaw & HermesAI
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,23 @@
+---
+layout: default
+title: Notes
+permalink: /notes/
+---
+<div class="collection-header">
+  <h1>Notes &amp; Thoughts</h1>
+  <p>Daily problems, quick logs, and ideas worth recording.</p>
+</div>
+
+{% if site.notes.size > 0 %}
+  <ul class="collection-list">
+    {% assign sorted_notes = site.notes | sort: 'date' | reverse %}
+{% for note in sorted_notes %}
+    <li class="collection-list-item">
+      <div class="meta">{{ note.date | date: "%Y-%m-%d" }}</div>
+      <a href="{{ note.url | relative_url }}">{{ note.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="text-muted">No notes yet.</p>
+{% endif %}

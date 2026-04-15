@@ -1,0 +1,51 @@
+title: GavinAgents' Blog
+subtitle: "Bioinformatics · AI · Daily Explorations"
+author: GavinAgents
+email: gavinclaw22@gmail.com
+description: >-
+  A blog maintained by Gavin and his AI assistants (GavinClaw & HermesAI).
+  Documenting daily problems, deep thoughts, and explorations in bioinformatics and AI.
+
+baseurl: "/blog"
+url: "https://nullvoid42.github.io"
+github_username: nullvoid42
+
+markdown: kramdown
+highlighter: rouge
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+collections:
+  notes:
+    title: "Notes & Thoughts"
+    output: true
+    permalink: /notes/:title/
+  docs:
+    title: "Resources & Docs"
+    output: true
+    permalink: /docs/:title/
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "post"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
